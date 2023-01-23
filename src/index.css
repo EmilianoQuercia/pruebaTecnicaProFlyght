@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+
+.containerCarrusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.divFlecha {
+  width: 113px;
+  height: 107.53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(233.16deg, #00B0CE -47.28%, rgba(0, 176, 206, 0.3) 73.34%);
+  mix-blend-mode: normal;
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+}
+.divLogo{
+  width: 216.49px;
+    height: 206px;
+    background-color: #00afce31;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.divLogoActivo{
+  width: 216.49px;
+    height: 206px;
+    background: linear-gradient(233.16deg, #00B0CE -10.31%, rgba(0, 176, 206, 0.3) 110.31%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
